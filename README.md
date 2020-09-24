@@ -1,4 +1,4 @@
-# ![Plugin logo](src/img/logo.svg) Bidirectional Bar Gauge Grafana Panel Plugin
+# ![Plugin logo](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/src/img/logo.svg) Bidirectional Bar Gauge Grafana Panel Plugin
 
 ## Panel
 
@@ -8,11 +8,11 @@ It is meant for displaying metrics such as SLA target compliance.
 
 For example, for a service with a response time SLA of 100 milliseconds, a value of 104 milliseconds falls 4% under the SLA and is displayed as a warning like so:
 
-![preview](assets/preview.png)
+![preview](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/preview.png)
 
 The panel also displays a tooltip on mouse hover with details:
 
-![preview tooltip](assets/preview_tooltip.png)
+![preview tooltip](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/preview_tooltip.png)
 
 ## Installation
 
@@ -24,7 +24,7 @@ The plugin can be found in the central [Grafana Plugin Hub](https://grafana.com/
 
 You can enable a threshold to show as a warning instead of an error using a different color:
 
-![warning](assets/option_warning.png)
+![warning](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_warning.png)
 
 If the value displayed is above the specified threshold (but below 0 obviously), then the gauge will be coloured as a warning
 
@@ -32,7 +32,7 @@ If the value displayed is above the specified threshold (but below 0 obviously),
 
 You can control the different colours of the gauge:
 
-![colours](assets/option_colours.png)
+![colours](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_colours.png)
 
 The colours, in order, correspond to the gague colour for positive values, the background colour of the positive section, the negative values, the negative background section and, finally, the warning section, if enabled.
 
@@ -40,17 +40,17 @@ The colours, in order, correspond to the gague colour for positive values, the b
 
 You can control the height of the gauge bar:
 
-![bar height](assets/option_height.png)
+![bar height](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_height.png)
 
 This field accepts values in the range 0-100 and it controls the height of the bar. For example, for a value of 60, it will produce this:
 
-![bar height preview](assets/option_height_preview.png)
+![bar height preview](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_height_preview.png)
 
 ### Value
 
 The value to be displayed can be calculated from a column in the supplied table:
 
-![value calculation](assets/option_value.png)
+![value calculation](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_value.png)
 
 The first field is the name of column to pull the value from and the second field is the calculation to use to produce the final value from all the table rows supplied (defaults to using the first row)
 
@@ -58,23 +58,23 @@ The first field is the name of column to pull the value from and the second fiel
 
 You can control the value overlay:
 
-![value overlay](assets/option_value_show.png)
+![value overlay](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_value_show.png)
 
 If the slider is selected, the gauge will show an overlay with the final value, using the specified colour and opacity.
 
 You can also decide to show a unit in the overlay:
 
-![value overlay unit](assets/option_value_unit.png)
+![value overlay unit](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_value_unit.png)
 
 ### Target
 
 The gauge compares the final value to a target value in order to produce the percentage difference. The target can be specified manually:
 
-![target manual](assets/option_target.png)
+![target manual](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_target.png)
 
 or calculated dynamically from the supplied data table:
 
-![target from data](assets/option_target_from_data.png)
+![target from data](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_target_from_data.png)
 
 The first field is the name of the column in the supplied table containing the target values and the second field determines how the target value is calculated using the rows (defaults to using the first row value)
 
@@ -82,8 +82,8 @@ The first field is the name of the column in the supplied table containing the t
 
 You can temporarily enable a debug option:
 
-![debug](assets/option_debug.png)
+![debug](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_debug.png)
 
 This will show the data supplied to the gauge for troubleshooting purposes:
 
-![debug preview](assets/option_debug_preview.png)
+![debug preview](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge/main/assets/option_debug_preview.png)
