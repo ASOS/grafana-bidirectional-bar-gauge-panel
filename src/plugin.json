@@ -1,0 +1,39 @@
+{
+  "type": "panel",
+  "name": "Bidirectional Bar Gauge",
+  "id": "grafana-bidirectional-bar-gauge",
+  "info": {
+    "description": "A plugin to display a horizontal bar with values ranging from -100% to 100%",
+    "author": {
+      "name": "savvasdalkitsis",
+      "url": "https://github.com/asos/bidirectional-bar-gauge"
+    },
+    "keywords": [
+      "bar",
+      "bidirectional",
+      "progress",
+      "gauge"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/asos/bidirectional-bar-gauge"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/asos/bidirectional-bar-gauge/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.0.x",
+    "plugins": []
+  }
+}
