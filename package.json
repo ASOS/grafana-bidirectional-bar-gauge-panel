@@ -1,6 +1,6 @@
 {
   "name": "grafana-bidirectional-bar-gauge-panel",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "A gauge to display a horizontal bar with values ranging from -100% to 100%",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
