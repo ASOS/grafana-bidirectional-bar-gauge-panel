@@ -8,7 +8,7 @@
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:asos/bidirectional-bar-gauge",
+  "repository": "github:asos/grafana-bidirectional-bar-gauge",
   "author": "savvasdalkitsis",
   "license": "Apache-2.0",
   "bugs": {
