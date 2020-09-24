@@ -1,5 +1,5 @@
 {
-  "name": "grafana-bidirectional-bar-gauge",
+  "name": "grafana-bidirectional-bar-gauge-panel",
   "version": "1.0.0",
   "description": "A gauge to display a horizontal bar with values ranging from -100% to 100%",
   "scripts": {
@@ -8,11 +8,11 @@
     "dev": "grafana-toolkit plugin:dev",
     "watch": "grafana-toolkit plugin:dev --watch"
   },
-  "repository": "github:asos/grafana-bidirectional-bar-gauge",
+  "repository": "github:asos/grafana-bidirectional-bar-gauge-panel",
   "author": "savvasdalkitsis",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/asos/grafana-bidirectional-bar-gauge/issues"
+    "url": "https://github.com/asos/grafana-bidirectional-bar-gauge-panel/issues"
   },
   "devDependencies": {
     "@grafana/data": "7.0.1",
