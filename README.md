@@ -16,7 +16,9 @@ The panel also displays a tooltip on mouse hover with details:
 
 ## Installation
 
-The plugin can be found in the central [Grafana Plugin Hub](https://grafana.com/grafana/plugins) 
+The plugin is waiting to be added to the central [Grafana Plugin Hub](https://grafana.com/grafana/plugins) 
+
+In the meantime, you can install it locally using the `dist` folder in the latest [release](https://github.com/ASOS/grafana-bidirectional-bar-gauge-panel/releases)
 
 ## Panel Display Options
 
