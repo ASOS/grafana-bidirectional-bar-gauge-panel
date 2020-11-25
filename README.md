@@ -93,3 +93,6 @@ You can temporarily enable a debug option:
 This will show the data supplied to the gauge for troubleshooting purposes:
 
 ![debug preview](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge-panel/main/assets/option_debug_preview.png)
+
+
+Test
