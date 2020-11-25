@@ -1,5 +1,9 @@
 # ![Plugin logo](https://raw.githubusercontent.com/asos/grafana-bidirectional-bar-gauge-panel/main/src/img/logo.svg) Bidirectional Bar Gauge Grafana Panel Plugin
 
+[![Build](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/workflows/Test%20&%20Build/badge.svg)](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/actions?query=workflow%3A%22Build+%26+Publish%22)
+[![Release](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/workflows/Release/badge.svg)](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/actions?query=workflow%3ARelease)
+
+
 ## Panel
 
 This grafana plugin displays a horizonal bar gauge showing how close to a target a value is. It covers a range of -100% to 100% (values outside the range are clipped visually)
