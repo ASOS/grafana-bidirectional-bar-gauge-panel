@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "Bidirectional Bar Gauge",
-  "id": "asos-bidirectional-bar-gauge-panel",
+  "id": "asos-bidirectionalbargauge-panel",
   "info": {
     "description": "A plugin to display a horizontal bar with values ranging from -100% to 100%",
     "author": {
