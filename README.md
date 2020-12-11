@@ -3,6 +3,7 @@
 [![Build](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/workflows/Test%20&%20Build/badge.svg)](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/actions?query=workflow%3A%22Build+%26+Publish%22)
 [![Release](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/workflows/Release/badge.svg)](https://github.com/asos/grafana-bidirectional-bar-gauge-panel/actions?query=workflow%3ARelease)
 
+Test
 
 ## Panel
 
