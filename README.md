@@ -5,6 +5,7 @@
 
 Test
 
+
 ## Panel
 
 This grafana plugin displays a horizonal bar gauge showing how close to a target a value is. It covers a range of -100% to 100% (values outside the range are clipped visually)
