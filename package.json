@@ -16,9 +16,9 @@
     "url": "https://github.com/asos/grafana-bidirectional-bar-gauge-panel/issues"
   },
   "devDependencies": {
-    "@grafana/data": "7.3.3",
-    "@grafana/toolkit": "7.3.3",
-    "@grafana/ui": "7.3.3",
+    "@grafana/data": "7.3.7",
+    "@grafana/toolkit": "7.3.7",
+    "@grafana/ui": "7.3.7",
     "emotion": "10.0.27"
   },
   "engines": {
